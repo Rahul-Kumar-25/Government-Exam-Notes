@@ -46,6 +46,17 @@ header h1 {
   transform: translateY(-2px);
 }
 
+/* ===================image-========== */
+.note-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+
 /* ================= FOOTER ================= */
 footer {
   text-align: center;
