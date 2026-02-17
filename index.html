@@ -7,26 +7,85 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <nav class="site-nav">
+    <div class="nav-inner container">
+      <a class="logo" href="index.html">Government Exam Notes</a>
+      <ul class="nav-links">
+        <li><a href="assets/filehtml/polity/polity.html">Polity</a></li>
+        <li><a href="assets/filehtml/history/history.html">History</a></li>
+        <li><a href="assets/filehtml/geo/geography.html">Geography</a></li>
+        <li><a href="assets/filehtml/eco/economy.html">Economy</a></li>
+        <li><a href="assets/filehtml/maths/maths.html">Maths</a></li>
+        <li><a href="assets/filehtml/reasoning/reasoning.html">Reasoning</a></li>
+        <li><a href="assets/filehtml/english/english.html">English</a></li>
+        <li><a href="assets/filehtml/ca/current-affairs.html">Current Affairs</a></li>
+      </ul>
+      <div class="nav-actions">
+        <label class="theme-switch" aria-label="Toggle dark mode">
+          <input id="dark-toggle" type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </nav>
 
-  <header>
-    <h1>Government Exam Notes</h1>
-    <p>Clean • Simple • Exam-Oriented</p>
+  <header class="page-banner">
+    <div class="container">
+      <h1>Government Exam Notes</h1>
+      <p>Focused, minimal notes — static & dynamic topics for competitive exams.</p>
+    </div>
   </header>
 
-  <main class="subjects">
-    <a href="./assets/filehtml/polity/polity.html" class="card">📘 Polity</a>
-    <a href="./assets/filehtml/history/history.html" class="card">📗 History</a>
-    <a href="./assets/filehtml/geo/geography.html" class="card">📙 Geography</a>
-    <a href="./assets/filehtml/eco/economy.html" class="card">📕 Economy</a>
-    <a href="./assets/filehtml/maths/maths.html" class="card">📒 Maths</a>
-    <a href="./assets/filehtml/reasoning/reasoning.html" class="card">📓 Reasoning</a>
-    <a href="./assets/filehtml/english/english.html" class="card">📔 English</a>
-    <a href="./assets/filehtml/ca/current-affairs.html" class="card">📰 Current Affairs</a>
+  <main class="container">
+    <section class="subject-grid" aria-label="Subjects">
+      <a class="subject-card" href="assets/filehtml/polity/polity.html">
+        <h3>Polity</h3>
+        <p>Important for SSC CGL, CHSL, Banking exams — covers static + dynamic topics.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/history/history.html">
+        <h3>History</h3>
+        <p>Ancient to modern Indian history — concise summaries and timelines.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/geo/geography.html">
+        <h3>Geography</h3>
+        <p>Physical and human geography with exam-oriented maps and facts.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/eco/economy.html">
+        <h3>Economy</h3>
+        <p>Key concepts, indicators and current economic issues for prelims.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/maths/maths.html">
+        <h3>Maths</h3>
+        <p>Practiceable shortcuts: percentages, profit-loss, time-work, SI/CI.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/reasoning/reasoning.html">
+        <h3>Reasoning</h3>
+        <p>Logical reasoning, syllogisms and exam-style practice tips.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/english/english.html">
+        <h3>English</h3>
+        <p>Reading, phrases and word meanings with exam focus.</p>
+      </a>
+
+      <a class="subject-card" href="assets/filehtml/ca/current-affairs.html">
+        <h3>Current Affairs</h3>
+        <p>Curated current-affairs resources important for multiple exams.</p>
+      </a>
+    </section>
   </main>
 
   <footer>
-    <p>Made for focused preparation</p>
+    <div class="container">
+      <p>Made for focused preparation — clean & exam-oriented.</p>
+    </div>
   </footer>
 
+  <script src="assets/js/darkmode.js"></script>
 </body>
 </html>
